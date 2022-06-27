@@ -1,0 +1,40 @@
+.contact{
+  width: 100%;
+  background-color: $grey;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+
+  &_container{
+    max-width: 910px;
+    padding-top: 70px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+  }
+  &_form{
+    width: 405px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+
+  }
+  &_input{
+    padding: 5px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    text-indent: 10px;
+    font-size: $fz - 1;
+    line-height: 24px;
+    color: #626262;
+    font-weight: 400;
+    font-family: $font-stack;
+
+  }
+  &_btn{
+    border: 0;
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+  }
+}

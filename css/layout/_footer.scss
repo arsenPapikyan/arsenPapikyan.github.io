@@ -1,0 +1,27 @@
+.footer{
+  width: 100%;
+  background-color: $grey;
+  padding: 40px 60px 35px 150px;
+  display: flex;
+  justify-content: space-between;
+
+  &_left{
+    width: 235px;
+    display: flex;
+
+
+    & a{
+      @extend %stylA;
+    }
+  }
+    &_right{
+      width: 200px;
+      display: flex;
+
+    }
+    & a{
+      @extend %stylA;
+    }
+
+
+}
